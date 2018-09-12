@@ -5,6 +5,7 @@ cd rpi-fan/
 sudo cp run-fan-service /lib/systemd/system/run-fan.service  
 sudo systemctl enable run-fan.service  
 
+Then reboot to have the fan service run at bootup.
 
 # rpi-fan
 Freeplay CM3 Fan
