@@ -1,8 +1,9 @@
-# install
-cd /home/pi/Freeplay/
-git clone https://github.com/TheFlav/rpi-fan.git
-cd rpi-fan/
-sudo cp run-fan-service /lib/systemd/system/run-fan.service
+# install  
+cd /home/pi/Freeplay/  
+git clone https://github.com/TheFlav/rpi-fan.git  
+cd rpi-fan/  
+sudo cp run-fan-service /lib/systemd/system/run-fan.service  
+sudo systemctl enable run-fan.service  
 
 
 # rpi-fan
