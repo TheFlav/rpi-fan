@@ -92,7 +92,7 @@ import datetime
 #########################
 sleepTime = 30	# Time to sleep between checking the temperature
                 # want to write unbuffered to file
-fileLog = open('/home/osmc/run-fan.log', 'w+', 0)
+fileLog = open('/home/pi/run-fan.log', 'w+', 0)
 
 #########################
 # Log messages should be time stamped
@@ -107,7 +107,7 @@ def printMsg(s):
 
 #########################
 class Pin(object):
-    pin = 25        # GPIO or BCM pin number to turn fan on and off
+    pin = 40        # GPIO or BCM pin number to turn fan on and off
 
     def __init__(self):
         try:
